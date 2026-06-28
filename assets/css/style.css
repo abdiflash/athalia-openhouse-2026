@@ -615,3 +615,14 @@ height:65px;
 
 
 }
+/* Memaksa warna link di footer menjadi putih */
+.footer-box a, 
+.footer-box a:visited {
+  color: #ffffff !important;
+  text-decoration: none; 
+}
+
+/* Memberikan efek garis bawah hanya saat kursor diarahkan (hover) */
+.footer-box a:hover {
+  text-decoration: underline;
+}

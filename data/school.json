@@ -1,0 +1,73 @@
+{
+  "schoolName": "Sekolah Athalia",
+
+  "event": {
+    "name": "Open House 2026",
+    "date": "1 Agustus 2026",
+    "time": "08.00 - 13.00"
+  },
+
+
+  "hero": {
+
+    "title": "Setiap Anak Adalah Titipan yang Berharga",
+
+    "description":
+    "Memilih sekolah bukan hanya memilih tempat belajar, tetapi memilih lingkungan yang membantu anak bertumbuh sesuai rancangan Tuhan."
+
+  },
+
+
+  "beliefs":[
+
+    {
+      "title":"Milik Allah",
+      "description":
+      "Setiap anak adalah milik Allah yang dipercayakan kepada orang tua dan guru sebagai penatalayan."
+    },
+
+
+    {
+      "title":"Berharga",
+      "description":
+      "Setiap anak bernilai karena diciptakan Allah dengan kehidupan yang bermakna."
+    },
+
+
+    {
+      "title":"Unik",
+      "description":
+      "Setiap anak memiliki keberadaan, karakter, dan potensi yang berbeda."
+    },
+
+
+    {
+      "title":"Cerdas",
+      "description":
+      "Setiap anak dianugerahi kecerdasan yang dapat dikembangkan."
+    },
+
+
+    {
+      "title":"Tujuan Khusus",
+      "description":
+      "Setiap anak dibimbing menemukan panggilan hidupnya."
+    }
+
+  ],
+
+
+  "through":[
+
+    "Pendidikan Karakter",
+
+    "Pembelajaran Bermakna",
+
+    "Guru yang Mendampingi",
+
+    "Komunitas yang Peduli"
+
+  ]
+
+
+}

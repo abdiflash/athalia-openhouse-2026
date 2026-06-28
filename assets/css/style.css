@@ -92,15 +92,21 @@ color:white;
 
 max-width:750px;
 
+text-align:center;
+
+margin:auto;
+
 }
 
 
 
 .logo{
 
-width:130px;
+width:140px;
 
-margin-bottom:25px;
+margin:0 auto 30px auto;
+
+display:block;
 
 }
 

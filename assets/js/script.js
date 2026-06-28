@@ -1,9 +1,13 @@
 fetch("data/school.json")
 
-.then(response=>response.json())
+.then(response => response.json())
 
-.then(data=>{
+.then(data => {
 
+
+/* =========================
+   META TITLE
+========================= */
 
 document.title =
 data.schoolName +
@@ -12,52 +16,67 @@ data.event.name;
 
 
 
-document.getElementById(
-"hero-title"
-).innerHTML =
+/* =========================
+   HERO
+========================= */
+
+document.getElementById("hero-title").innerHTML =
 data.hero.title;
 
 
-
-document.getElementById(
-"hero-description"
-).innerHTML =
+document.getElementById("hero-description").innerHTML =
 data.hero.description;
 
 
 
-document.getElementById(
-"event-name"
-).innerHTML =
+/* =========================
+   EVENT
+========================= */
+
+document.getElementById("event-name").innerHTML =
 data.event.name;
 
 
-
-document.getElementById(
-"event-date"
-).innerHTML =
+document.getElementById("event-date").innerHTML =
 data.event.date;
 
 
 
+/* =========================
+   BELIEFS
+========================= */
 
 
-let beliefHTML="";
+let beliefHTML = "";
 
 
-data.beliefs.forEach(item=>{
+data.beliefs.forEach(item => {
 
 
 beliefHTML += `
 
-<div class="card">
+
+<div class="card belief-card">
+
+
+<img 
+src="${item.image}" 
+alt="${item.title}"
+class="belief-icon"
+>
+
 
 <h3>
+
 ${item.title}
+
 </h3>
 
+
 <p>
+
 ${item.description}
+
 </p>
 
 
@@ -70,21 +89,23 @@ ${item.description}
 });
 
 
-
 document.getElementById(
 "belief-container"
-)
-.innerHTML=beliefHTML;
+).innerHTML = beliefHTML;
 
 
 
 
 
+/* =========================
+   THROUGH
+========================= */
 
-let throughHTML="";
+
+let throughHTML = "";
 
 
-data.through.forEach(item=>{
+data.through.forEach(item => {
 
 
 throughHTML += `
@@ -92,16 +113,17 @@ throughHTML += `
 
 <div class="card">
 
+
 <h3>
 
-${item}
+${item.title}
 
 </h3>
 
 
 <p>
 
-Mendampingi perjalanan anak bertumbuh.
+${item.description}
 
 </p>
 
@@ -115,11 +137,9 @@ Mendampingi perjalanan anak bertumbuh.
 });
 
 
-
 document.getElementById(
 "through-container"
-)
-.innerHTML=throughHTML;
+).innerHTML = throughHTML;
 
 
 

@@ -626,3 +626,49 @@ height:65px;
 .footer-box a:hover {
   text-decoration: underline;
 }
+/* ====================================================
+   RESPONSIVE DESIGN (KHUSUS LAYAR HAPE / MOBILE)
+   ==================================================== */
+@media (max-width: 768px) {
+  
+  /* 1. Mengatur Ukuran Logo Hero */
+  .hero-content .logo {
+    max-width: 120px; /* Mengecilkan logo agar tidak dominan di HP */
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  /* 2. Mengatur Ukuran Judul Utama */
+  #hero-title {
+    font-size: 28px !important; /* Menyesuaikan judul utama agar tidak memakan tempat */
+    line-height: 1.3;
+    margin-bottom: 15px;
+  }
+
+  /* 3. Mengatur Ukuran Sub Judul (Deskripsi Hero) */
+  #hero-description {
+    font-size: 15px !important; /* Menyeimbangkan ukuran teks deskripsi */
+    line-height: 1.5;
+    padding: 0 10px;
+    margin-bottom: 25px;
+  }
+
+  /* 4. Membesarkan Teks Info Tanggal Event */
+  .event-box {
+    padding: 15px 20px !important;
+    margin-bottom: 25px !important;
+  }
+
+  #event-name {
+    font-size: 20px !important; /* Membuat tulisan 'Open House Sekolah Athalia' lebih besar & jelas */
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  #event-date {
+    font-size: 18px !important; /* Membuat teks tanggal '1 Agustus 2026' kontras dan mudah dibaca */
+    font-weight: bold;
+    color: var(--green); /* Menggunakan warna aksen hijau agar mencolok */
+  }
+  
+}

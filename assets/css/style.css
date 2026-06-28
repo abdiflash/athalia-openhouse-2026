@@ -52,12 +52,12 @@ padding:90px 0;
 }
 
 
-
-/* HERO */
+/* =====================
+   HERO
+===================== */
 
 
 .hero{
-
 
 min-height:90vh;
 
@@ -100,6 +100,8 @@ max-width:750px;
 
 width:130px;
 
+margin-bottom:25px;
+
 }
 
 
@@ -122,12 +124,14 @@ font-size:20px;
 
 
 
+
 .event-box{
 
 
 margin:25px 0;
 
 padding:20px;
+
 
 background:
 
@@ -136,7 +140,9 @@ rgba(255,255,255,.15);
 
 border-radius:20px;
 
+
 backdrop-filter:blur(10px);
+
 
 }
 
@@ -154,11 +160,14 @@ color:white;
 
 padding:15px 40px;
 
+
 border-radius:50px;
+
 
 text-decoration:none;
 
 font-weight:bold;
+
 
 }
 
@@ -174,6 +183,7 @@ background:var(--soft);
 
 
 
+
 .title{
 
 text-align:center;
@@ -181,6 +191,8 @@ text-align:center;
 margin-bottom:50px;
 
 }
+
+
 
 
 
@@ -196,25 +208,10 @@ color:var(--navy);
 
 
 
-.problem,
-.form-box{
 
-
-background:white;
-
-padding:35px;
-
-border-radius:25px;
-
-
-box-shadow:
-
-0 20px 45px rgba(0,0,0,.08);
-
-
-}
-
-
+/* =====================
+   CARD SYSTEM
+===================== */
 
 
 .cards{
@@ -222,13 +219,17 @@ box-shadow:
 
 display:grid;
 
+
 grid-template-columns:
 
 repeat(auto-fit,minmax(230px,1fr));
 
+
 gap:30px;
 
+
 }
+
 
 
 
@@ -238,7 +239,9 @@ gap:30px;
 
 background:white;
 
+
 padding:35px;
+
 
 border-radius:25px;
 
@@ -254,6 +257,8 @@ transition:.3s;
 }
 
 
+
+
 .card:hover{
 
 transform:
@@ -261,6 +266,7 @@ transform:
 translateY(-10px);
 
 }
+
 
 
 
@@ -273,11 +279,127 @@ color:var(--navy);
 
 
 
+/* =====================
+   BELIEFS
+===================== */
+
+
+
+.belief-card{
+
+
+text-align:center;
+
+
+min-height:360px;
+
+
+display:flex;
+
+
+flex-direction:column;
+
+
+align-items:center;
+
+
+}
+
+
+
+
+.belief-icon{
+
+
+width:90px;
+
+
+height:90px;
+
+
+object-fit:contain;
+
+
+display:block;
+
+
+margin-bottom:25px;
+
+
+}
+
+
+
+
+.belief-card h3{
+
+
+margin-top:10px;
+
+
+font-size:22px;
+
+
+}
+
+
+
+
+.belief-card p{
+
+
+font-size:15px;
+
+
+}
+
+
+
+
+
+/* =====================
+   PROBLEM + FORM
+===================== */
+
+
+
+.problem,
+.form-box{
+
+
+background:white;
+
+
+padding:35px;
+
+
+border-radius:25px;
+
+
+box-shadow:
+
+0 20px 45px rgba(0,0,0,.08);
+
+
+}
+
+
+
+
+
+/* =====================
+   VIDEO
+===================== */
+
+
 .video-section{
+
 
 background:var(--navy);
 
+
 color:white;
+
 
 }
 
@@ -293,12 +415,22 @@ color:white;
 
 video{
 
+
 width:100%;
+
 
 border-radius:30px;
 
+
 }
 
+
+
+
+
+/* =====================
+   GALLERY
+===================== */
 
 
 
@@ -307,9 +439,11 @@ border-radius:30px;
 
 display:grid;
 
+
 grid-template-columns:
 
 repeat(3,1fr);
+
 
 gap:25px;
 
@@ -317,21 +451,28 @@ gap:25px;
 }
 
 
+
+
 .gallery img{
 
 
 width:100%;
 
+
 height:280px;
+
 
 object-fit:cover;
 
+
 border-radius:25px;
+
 
 
 box-shadow:
 
 0 20px 40px rgba(0,0,0,.15);
+
 
 
 }
@@ -340,18 +481,29 @@ box-shadow:
 
 
 
-input,select{
+/* =====================
+   FORM
+===================== */
+
+
+input,
+select{
 
 
 width:100%;
 
+
 padding:15px;
+
 
 margin-bottom:15px;
 
+
 border-radius:12px;
 
+
 border:1px solid #ddd;
+
 
 }
 
@@ -363,15 +515,21 @@ button{
 
 width:100%;
 
+
 padding:16px;
+
 
 border:0;
 
+
 border-radius:50px;
+
 
 background:var(--navy);
 
+
 color:white;
+
 
 font-weight:bold;
 
@@ -380,14 +538,24 @@ font-weight:bold;
 
 
 
+
+
+/* =====================
+   FOOTER
+===================== */
+
+
 footer{
 
 
 background:#031B30;
 
+
 color:white;
 
+
 text-align:center;
+
 
 padding:30px;
 
@@ -396,21 +564,48 @@ padding:30px;
 
 
 
+
+
+/* =====================
+   MOBILE
+===================== */
+
+
 @media(max-width:700px){
+
 
 
 .hero h1{
 
+
 font-size:38px;
 
+
 }
+
 
 
 .gallery{
 
+
 grid-template-columns:1fr;
 
+
 }
+
+
+
+.belief-icon{
+
+
+width:65px;
+
+
+height:65px;
+
+
+}
+
 
 
 }

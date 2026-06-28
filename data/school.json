@@ -1,115 +1,218 @@
 {
+  "schoolName": "Sekolah Athalia",
 
-"schoolName":
+  "event": {
+    "name": "Open House 2026",
+    "date": "1 Agustus 2026",
+    "time": "08.00 - 13.00",
+    "location": "Aula F Sekolah Athalia"
+  },
 
-"Sekolah Athalia",
 
+  "hero": {
 
-"event":{
+    "title": "Setiap Anak Adalah Titipan yang Berharga",
 
-"name":
+    "description": "Memilih sekolah bukan hanya memilih tempat belajar, tetapi memilih lingkungan yang membantu anak bertumbuh sesuai rancangan Tuhan.",
 
-"Open House 2026",
+    "background": "assets/images/hero.jpg"
 
-"date":
+  },
 
-"1 Agustus 2026 | 08.00 - 13.00"
 
-},
+  "beliefs": [
 
+    {
+      "title": "Milik Allah",
 
-"hero":{
+      "description": "Setiap anak adalah milik Allah yang dipercayakan kepada orang tua dan guru sebagai penatalayan.",
 
+      "image": "assets/images/beliefs/milik-allah.png"
+    },
 
-"title":
 
-"Setiap Anak Adalah Titipan yang Berharga",
+    {
+      "title": "Berharga",
 
+      "description": "Setiap anak bernilai di mata Allah karena diciptakan oleh-Nya sehingga hidupnya bermakna.",
 
-"description":
+      "image": "assets/images/beliefs/berharga.png"
+    },
 
-"Memilih sekolah bukan hanya memilih tempat belajar, tetapi memilih lingkungan yang membantu anak bertumbuh sesuai rancangan Tuhan."
 
-},
+    {
+      "title": "Unik",
 
+      "description": "Setiap anak diciptakan unik dengan karakter, keberadaan, dan potensi yang berbeda.",
 
+      "image": "assets/images/beliefs/unik.png"
+    },
 
-"beliefs":[
 
+    {
+      "title": "Cerdas",
 
-{
+      "description": "Setiap anak dianugerahi berbagai kecerdasan yang dapat dikembangkan untuk kemuliaan Tuhan.",
 
-"title":"Milik Allah",
+      "image": "assets/images/beliefs/cerdas.png"
+    },
 
-"description":
 
-"Setiap anak adalah milik Allah yang dipercayakan kepada orang tua dan guru."
+    {
+      "title": "Tujuan Khusus",
 
-},
+      "description": "Setiap anak perlu dibimbing menemukan panggilan Tuhan secara khusus bagi hidupnya.",
 
+      "image": "assets/images/beliefs/tujuan.png"
+    }
 
-{
+  ],
 
-"title":"Berharga",
 
-"description":
 
-"Setiap anak memiliki nilai dan kehidupan yang bermakna."
+  "through": [
 
-},
+    {
+      "title": "Pendidikan Karakter",
 
+      "description": "Membangun nilai, integritas, tanggung jawab, dan kehidupan yang berakar pada kebenaran.",
 
-{
+      "image": "assets/images/value/karakter.png"
+    },
 
-"title":"Unik",
 
-"description":
+    {
+      "title": "Pembelajaran Bermakna",
 
-"Setiap anak memiliki karakter dan potensi yang berbeda."
+      "description": "Mengembangkan rasa ingin tahu, kreativitas, dan kemampuan berpikir anak.",
 
-},
+      "image": "assets/images/value/pembelajaran.png"
+    },
 
 
-{
+    {
+      "title": "Guru yang Mendampingi",
 
-"title":"Cerdas",
+      "description": "Guru mengenal anak dan hadir dalam proses pertumbuhan mereka.",
 
-"description":
+      "image": "assets/images/value/guru.png"
+    },
 
-"Setiap anak memiliki kecerdasan yang dapat dikembangkan."
 
-},
+    {
+      "title": "Komunitas yang Peduli",
 
+      "description": "Sekolah dan keluarga berjalan bersama mendukung perjalanan pendidikan anak.",
 
-{
+      "image": "assets/images/value/komunitas.png"
+    }
 
-"title":"Tujuan Khusus",
+  ],
 
-"description":
 
-"Setiap anak dibimbing menemukan panggilan hidupnya."
 
-}
+  "openHouseExperience": [
 
+    {
+      "title": "Talkshow",
 
-],
+      "description": "Mendapat insight tentang pendidikan anak dan perjalanan pertumbuhan mereka."
+    },
 
 
+    {
+      "title": "School Tour",
 
-"through":[
+      "description": "Melihat langsung suasana belajar dan lingkungan Sekolah Athalia."
+    },
 
 
-"Pendidikan Karakter",
+    {
+      "title": "Mengenal Unit",
 
-"Pembelajaran Bermakna",
+      "description": "Bertemu guru dan memahami program pembelajaran setiap jenjang."
+    },
 
-"Guru yang Mendampingi",
 
-"Komunitas yang Peduli"
+    {
+      "title": "Konsultasi PSB",
 
+      "description": "Mendapat informasi pendaftaran dan proses penerimaan siswa baru."
+    }
 
-]
+  ],
 
 
+
+  "units": [
+
+    {
+      "name": "TK",
+
+      "description": "Membangun fondasi karakter dan rasa ingin tahu anak sejak dini.",
+
+      "gallery": [
+
+        "assets/images/tk/foto1.jpg",
+
+        "assets/images/tk/foto2.jpg"
+
+      ]
+
+    },
+
+
+    {
+      "name": "SD",
+
+      "description": "Mengembangkan potensi akademik, karakter, dan keterampilan anak.",
+
+      "gallery": [
+
+        "assets/images/sd/foto1.jpg",
+
+        "assets/images/sd/foto2.jpg"
+
+      ]
+
+    },
+
+
+    {
+      "name": "SMP",
+
+      "description": "Mendampingi remaja bertumbuh menjadi pribadi yang matang dan berdampak.",
+
+      "gallery": [
+
+        "assets/images/smp/foto1.jpg",
+
+        "assets/images/smp/foto2.jpg"
+
+      ]
+
+    }
+
+  ],
+
+
+
+  "video": {
+
+    "thumbnail": "assets/images/thumbnail-video.jpg",
+
+    "source": "assets/video/athalia-profile.mp4"
+
+  },
+
+
+
+  "cta": {
+
+    "title": "Jadilah Bagian dari Perjalanan Pertumbuhan Anak",
+
+    "button": "Daftar Open House Sekarang"
+
+  }
 
 }
